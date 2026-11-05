@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "pnpm@12.3.4",
   "scripts": {
-    "server": "node server/index.js",
+    "server": "node index.js",
     "dev:all": "concurrently \"pnpm run server\" \"pnpm run dev\"",
     "build": "next build",
     "start": "next start"
